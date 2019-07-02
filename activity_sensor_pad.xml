@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorPad">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="406dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="  Jacket"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="90dp"
+        android:text="Buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="408dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="187dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="106dp"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:onClick="radiobtn"
+            android:text="want Insurance."
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toStartOf="@+id/radioButton2" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="207dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="106dp"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:onClick="radiobtn"
+            android:text="don't want insurance"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/radioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="410dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgroup" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="101dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/jack" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="398dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</android.support.constraint.ConstraintLayout>

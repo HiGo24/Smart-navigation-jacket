@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "220730157968",
+    "firebase_url": "https://drishti-da56e.firebaseio.com",
+    "project_id": "drishti-da56e",
+    "storage_bucket": "drishti-da56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220730157968:android:fa8438034fecbb92",
+        "android_client_info": {
+          "package_name": "com.example.drishti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220730157968-m20gj1mggme1t08kvvsb70rd4apm58kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drishti",
+            "certificate_hash": "6f91f1952e7a59dea4eb64031c5d8d7f1e86b328"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8HwxCqfawJeFcgaI1FH1rqiwtYasDdeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220730157968-1pgufmukoh0a4v2uc4sjb41l0f048eo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
