@@ -1,2 +1,2 @@
 # Smart-navigation-jacket
-IoT based project using TRIGONOMETRY and Android Application
+IoT based smart jacket project using TRIGONOMETRY and Android Application
